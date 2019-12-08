@@ -23,6 +23,4 @@ function leastsquarescoefficients( xs, ys )
 
 end
 
-export leastsquarescoefficients
-
 end #module
