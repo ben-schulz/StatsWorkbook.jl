@@ -19,9 +19,10 @@ function leastsquarescoefficients( xs, ys )
 
     β0 = ymean - β1 * xmean
 
-    LinearRegression( [ β1, β0 ] )
+    ( β1, β0 )
 
 end
 
+export leastsquarescoefficients
 
 end #module
